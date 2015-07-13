@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div#area{
+			/*position: relative;*/
+			left: 20%;
+			top: 39%;
+			width: 310px;
+			height: 270px;
+		}
+		form#formulario{
+			position: absolute;
+			width: 60%;
+			
+		}
+		fieldset{
+			width: 40%;
+			border-radius: 10px;
+		}
+		input[type=submit]{
+			margin-top: 30px;
+			width: 40%;
+			float: right;
+			background-color: #ccc;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px #888888;
+		}
+		input[type=text]{
+			float: right;
+			width: 60%;
+		}
+		legend{
+			background-color: #ccc;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px #888888;
+			font-family: "Times New Roman", Georgia, Serif;
+			text-align: center;
+			width: 35%;
+		}
+		label#nome{
+			float: left;
+			margin-left: 65px;
+		}
+		label#email{
+			float: left;
+			margin-left: 65px;
+		}
+		label#mensagem{
+			float: left;
+			margin-left: 25px;
+		}
+		textarea{
+		float: right;
+		width: 60%;
+		height: 70px;
+		
+		}		
+
+	</style>
+</head>
+<body>
+		<div id="area">
+			<form action="teste.html" method="get" id="formulario">
+			<fieldset>
+			<legend>Fale Conosco</legend>
+				<label for="nome" id="nome">Nome:</label>
+				<input type="text" name="Nome" id="Nome"><br>
+				<label for="Email" id="email">Email:</label>
+				<input type="text" name="Email" id="Email"><br><br>
+				<label for="Mensagem" id="mensagem">Mensagem:</label>
+				<textarea name="Mensagem"></textarea>
+
+				<input type="submit" value="Enviar">
+
+			</form>
+		</div>
+	</fieldset>
+</body>
+</html>
+
+
+
+

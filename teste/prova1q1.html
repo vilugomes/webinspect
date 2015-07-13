@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- Vinícius Lucena Gomes - 20112380330 -->
+<html>
+<head>
+       <title>Prova 1 questao 1</title>
+       <meta charset="UTF-8">
+
+       <style>
+        h1{
+          font-family: Arial, Helvetica, sans-serif;
+        }
+       table{
+          border-collapse: collapse;
+          border-spacing: 444px;
+          border: 1px solid #ccc;
+          width: 30%;
+          font-family: Arial, Helvetica, sans-serif;
+
+       }
+       label.up{
+          color: rgb(0,0,255);
+          background-color: #8dc95e;
+          margin-left: 5px;
+       }
+       label.down{
+          color: rgb(0,0,255);
+          background-color: #9b3139;
+          margin-left: 5px;
+       }
+       td{
+          border:1px solid #787878;
+       }
+       thead{
+          background-color: #b8b8b8;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+       }
+       tr:nth-child(even){
+          background-color: #e6e6e6;
+       }
+       td.server{
+          background-image: url("icon.png");
+          background-repeat: no-repeat;
+          background-size: 25px;
+          background-position: right;  
+       }
+       a:link {
+          text-decoration: none;
+      }
+
+      a:visited {
+          text-decoration: none;
+      }
+
+      a:hover {
+          text-decoration: underline;
+      }
+      td.up{
+          background-color: #8dc95e;
+       }
+      td.down{
+        background-color: #9b3139;
+      }
+
+       </style>
+
+</head>
+<body>
+
+<h1>Websites(HTTP)</h1>
+
+<table>
+       <thead>
+               <tr>
+                  <td>Host</td>
+                  <td>Status</td>
+                  <td>Services</td>
+               </tr>
+       </thead>
+               <tr>
+                  <td><a href="127.0.0.1">localhost</a></td>
+                  <td class="down, up">Up</td>
+                  <td>
+                    <label for="" class="down, up">HTTP</label>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td class="server"><a href="secure.nagios.com" target="_blank">secure.nagios.com</a></td>
+                  <td class="down, up">Up</td>
+                 <td>
+                    <label for="" class="down, up">HTTP</label>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td class="server"><a href="vs1:nagios.org" target="_blank">vs1:nagios.org</a></td>
+                  <td class="down, up">Up</td>
+                  <td>
+                    <label for="" class="down, up">HTTP</label>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td class="server"><a href="www.chaoticmoon.com" target="_blank">www.chaoticmoon.com</a></td>
+                  <td class="down, up">Up</td>
+                  <td>
+                    <label for="" class="down, up">HTTP</label>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td class="server"><a href="www.nagios.com" target="_blank">www.nagios.com</a></td>
+                  <td class="down, up">Up</td>
+                  <td>
+                    <label for="" class="down, up">HTTP</label>
+                  </td>
+               </tr>
+</table>
+
+
+
+</body>
+</html>

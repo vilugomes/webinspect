@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<!-- Fonte do tópico -->
+<link href='http://fonts.googleapis.com/css?family=Nunito:300,400' rel='stylesheet' type='text/css'>
+<!-- Fonte do body -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+<script src="js/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+    });
+});
+</script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<style type="text/css">
+	.custom-restricted-width {
+    	display: inline-block;
+    }
+	.sprite {
+		background: url('img/logo-11.png') no-repeat top left;
+		background-size: 80px 60px;
+	} 
+	.sprite.logo2 { 
+		background-position: 0 0; width: auto; height: 60px;
+		padding-bottom: 70px;		
+		box-shadow: 0px 1px 5px grey;
+		margin: 0px;
+	} 
+	p{
+		margin-left:100px;
+		padding-top: 15px;
+		font-family: 'Nunito', sans-serif;
+		font-size: 200%;
+	}
+    div{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 300px;
+    }
+    article#panel, #panel2{
+    	display: none;
+    	padding-top: 10px;
+    }
+    button{
+    	font-family: 'Open Sans', sans-serif;
+    }
+    button#flip2, #flip{
+    	width: 250px;       	
+    }
+    button#button-eth0{
+    	width: 123px;
+    	background-color: #e6e6e6;
+    }
+</style>
+
+</head>
+<body>
+<div class='sprite logo2'>
+	<p>WebInspect</p>
+</div>
+
+<div id="div-top">
+    <div id="div-one">        
+        	<button class="btn btn-default" href="#" role="button" id="flip">Uso do sistema</button>
+        	<article id="panel">
+        		<button class="btn btn-default" href="#" role="button" id="button-eth0">Acessos</button>
+        		<button class="btn btn-default" href="#" role="button" id="button-eth0">Processos</button>
+        	</article>     
+    </div>
+
+    <div id="div-two">        
+        	<button class="btn btn-default" href="#" role="button" id="flip2">Rede</button>
+        	<article id="panel2">
+        		<button class="btn btn-default" href="#" role="button" id="button-eth0">Tráfego eth0</button>
+        		<button class="btn btn-default" href="#" role="button" id="button-eth0">Pacotes eth0</button>
+        	</article>       
+    </div>
+</div> 
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+HTML (Lista 10%): 	ok
+HTML (Tabela 10%):	ok
+HTML (Formulário 10%):	ok
+
+CSS: 			ok
+
+JS (Json e Ajax): 	ok
+
+PHP (Shell 10%):	ok
+PHP (Sessão 10%):	-
+PHP (Banco MySql 20%):	ok
