@@ -19,10 +19,10 @@ Projeto da cadeira de desenvolvimento web do preríodo 2015.1
  * Wellington Santos da Silva - 20112380357
 
 ###Requisitos
-*Debian 8 64bit(Jessie)
-*Apache 2
-*MySql
-*PHP5
+* Debian 8 64bit(Jessie)
+* Apache 2
+* MySql
+* PHP5
 
 ## Configuração e Instalação
 
